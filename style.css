@@ -1,42 +1,43 @@
- h1{
-    color: dodgerblue;
- }
- p{
-    color: tomato;
+ h2{
+    color:dodgerblue;
  }
  body{
-    display: flex;
     height: 100vh;
+     color: white;
+    display: flex;
     align-items: center;
     justify-content: center;
-    background-color:whitesmoke;
  }
- .container{
-    width: 320px;
-    padding: 20px;
-    align-items: center;
-    text-align: center;
-    color: white;
-    border-radius: 15px;
-    background-color: white;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+ p{
+    font-size: 18px;
+    color:tomato;
  }
- input{
-    width: 100%;
+ .card{
+    width: 350px;
     padding: 10px;
-    margin: 2px;
-    border-radius: 5px;
- }
- button{
-    width: 100%;
-    padding: 5px;
-    margin: 2px;
+    margin: 10px auto;
+    text-align: center;
+    align-items: center;
     color: white;
-    border-radius: 5px;
-    background-color:dodgerblue;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
  }
- button:hover{
-    background-color: tomato;
-    cursor: pointer;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
- }
+    .card img{
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+    }
+    button{
+        width: 30%;
+        padding: 5px;
+        background-color:red;
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    button:hover{
+        color: white;
+        background-color:black;
+    }
+    
